@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+  }
+  .container{
+    margin-top: 10%;
+  text-align: center;
+  }
+  label{
+    display: flex;
+    justify-content: center;
+  }
+  label #time{
+    color: orange;
+    font-size: 2rem;
+  }
+  #time{
+   text-align: center;
+  }
+  .btn{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #lap,#start{
+    background-color: red;
+    padding: 30px;
+    margin: 4px;
+    border-radius: 150px;
+    border: none;
+    overflow: hidden;
+  }
+button{
+  padding: 5px;
+  font-size: 20px;
+  height: 100px;
+  width: 100px;
+  background-clip: content-box;
+  border-radius: 50%;
+  margin-left:50px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+#start{
+  background-color:	rgb(255,0,0,0.3) ;
+  border: 3px solid rgb(255,0,0,0.3);
+  color:#E00000 ;
+}
+#lap{
+  border: 3px solid rgba(192,192,192,0.3);
+ background-color: rgba(192,192,192,0.3);
+ color:#909090;
+}
+
+#ancestor div{
+  background-color: #161616;
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  padding: 10px ;
+  border: 1px solid rgb(58, 57, 58);
+
+ 
+}
+#ancestor div span{
+  color: rgb(120, 118, 118);
+}
+#ancestor div span:last-of-type{
+  color: white;
+}
